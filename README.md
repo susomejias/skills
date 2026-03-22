@@ -36,12 +36,6 @@ These skills help you work in smaller, safer, and more reviewable steps.
   npx skills@latest add <github-owner>/skills/testing
   ```
 
-- **tdd** — Use a red-green-refactor loop to build features or fix bugs one vertical slice at a time through public interfaces.
-
-  ```bash
-  npx skills@latest add <github-owner>/skills/tdd
-  ```
-
 - **git-commit** — Create clean git commits with emoji conventional commit messages, staged-file awareness, and guidance for splitting mixed changes.
 
   ```bash
@@ -56,6 +50,5 @@ Each skill lives in a top-level folder so it can be installed directly by path:
 - `root-cause-tracing/`
 - `systematic-debugging/`
 - `testing/`
-- `tdd/`
 
 Each folder contains a required `SKILL.md` file and may include supporting resources such as reference docs or scripts.
