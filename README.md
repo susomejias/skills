@@ -40,6 +40,16 @@ These skills help you work in smaller, safer, and more reviewable steps.
   npx skills@latest add susomejias/skills/git-commit
   ```
 
+## Planning
+
+These skills help you design and document features before implementation.
+
+- **write-prd** — Create a PRD through user interview, codebase exploration, and module design. Saves the document to `.prds/` in the repository as a dated markdown file.
+
+  ```bash
+  npx skills@latest add susomejias/skills/write-prd
+  ```
+
 ## Structure
 
 Each skill lives in a top-level folder so it can be installed directly by path:
@@ -48,5 +58,6 @@ Each skill lives in a top-level folder so it can be installed directly by path:
 - `root-cause-tracing/`
 - `systematic-debugging/`
 - `testing/`
+- `write-prd/`
 
 Each folder contains a required `SKILL.md` file and may include supporting resources such as reference docs or scripts.
