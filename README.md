@@ -24,6 +24,12 @@ These skills help you investigate failures before reaching for fixes.
   npx skills@latest add susomejias/skills/root-cause-tracing
   ```
 
+- **find-buggy-commit** — Find the exact commit that introduced a bug or regression using binary search. Supports autonomous mode (running tests automatically) and interactive mode (guided step-by-step).
+
+  ```bash
+  npx skills@latest add susomejias/skills/find-buggy-commit
+  ```
+
 ## Development Workflow
 
 These skills help you work in smaller, safer, and more reviewable steps.
@@ -54,6 +60,7 @@ These skills help you design and document features before implementation.
 
 Each skill lives in a top-level folder so it can be installed directly by path:
 
+- `find-buggy-commit/`
 - `git-commit/`
 - `root-cause-tracing/`
 - `systematic-debugging/`
