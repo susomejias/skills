@@ -8,63 +8,29 @@ Install an individual skill with:
 npx skills@latest add susomejias/skills/<skill-folder>
 ```
 
-## Debugging & Investigation
+## Skills
 
-These skills help you investigate failures before reaching for fixes.
+### Debugging & Investigation
 
-- **systematic-debugging** — Apply a four-phase debugging framework that enforces root cause investigation, pattern analysis, hypothesis testing, and implementation.
+| Skill | Description | Install |
+|-------|-------------|---------|
+| `systematic-debugging` | Four-phase debugging framework: root cause investigation, pattern analysis, hypothesis testing, implementation | `npx skills@latest add susomejias/skills/systematic-debugging` |
+| `root-cause-tracing` | Trace bugs backward through the call stack to find the original trigger and fix the source instead of the symptom | `npx skills@latest add susomejias/skills/root-cause-tracing` |
+| `find-buggy-commit` | Find the exact commit that introduced a bug using binary search. Autonomous mode (auto-testing) or interactive mode (step-by-step) | `npx skills@latest add susomejias/skills/find-buggy-commit` |
 
-  ```bash
-  npx skills@latest add susomejias/skills/systematic-debugging
-  ```
+### Development Workflow
 
-- **root-cause-tracing** — Trace bugs backward through the call stack to find the original trigger, add instrumentation, and fix the source instead of the symptom.
+| Skill | Description | Install |
+|-------|-------------|---------|
+| `git-commit` | Create clean git commits with emoji conventional commit messages, staged-file awareness, and split guidance | `npx skills@latest add susomejias/skills/git-commit` |
+| `testing` | Pragmatic testing guidance with integration-first bias, behavior-focused assertions, and lighter use of mocks | `npx skills@latest add susomejias/skills/testing` |
 
-  ```bash
-  npx skills@latest add susomejias/skills/root-cause-tracing
-  ```
+### Planning
 
-- **find-buggy-commit** — Find the exact commit that introduced a bug or regression using binary search. Supports autonomous mode (running tests automatically) and interactive mode (guided step-by-step).
-
-  ```bash
-  npx skills@latest add susomejias/skills/find-buggy-commit
-  ```
-
-## Development Workflow
-
-These skills help you work in smaller, safer, and more reviewable steps.
-
-- **testing** — Apply pragmatic testing guidance with an integration-first bias, behavior-focused assertions, and lighter use of mocks.
-
-  ```bash
-  npx skills@latest add susomejias/skills/testing
-  ```
-
-- **git-commit** — Create clean git commits with emoji conventional commit messages, staged-file awareness, and guidance for splitting mixed changes.
-
-  ```bash
-  npx skills@latest add susomejias/skills/git-commit
-  ```
-
-## Planning
-
-These skills help you design and document features before implementation.
-
-- **write-prd** — Create a PRD through user interview, codebase exploration, and module design. Saves the document to `.prds/` in the repository as a dated markdown file.
-
-  ```bash
-  npx skills@latest add susomejias/skills/write-prd
-  ```
+| Skill | Description | Install |
+|-------|-------------|---------|
+| `write-prd` | Create a PRD through user interview, codebase exploration, and module design. Saves to `.prds/` as a dated markdown file | `npx skills@latest add susomejias/skills/write-prd` |
 
 ## Structure
 
-Each skill lives in a top-level folder so it can be installed directly by path:
-
-- `find-buggy-commit/`
-- `git-commit/`
-- `root-cause-tracing/`
-- `systematic-debugging/`
-- `testing/`
-- `write-prd/`
-
-Each folder contains a required `SKILL.md` file and may include supporting resources such as reference docs or scripts.
+Each skill lives in a top-level folder and contains a required `SKILL.md` file with optional supporting resources (reference docs, scripts).
