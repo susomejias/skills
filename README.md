@@ -31,6 +31,12 @@ npx skills@latest add susomejias/skills/<skill-folder>
 |-------|-------------|---------|
 | `write-prd` | Create a PRD through user interview, codebase exploration, and module design. Saves to `.prds/` as a dated markdown file | `npx skills@latest add susomejias/skills/write-prd` |
 
+### Security
+
+| Skill | Description | Install |
+|-------|-------------|---------|
+| `npm-security-best-practices` | Supply-chain hardening for any npm-ecosystem project (npm, pnpm, yarn, bun): lifecycle scripts, cooldown, lockfile-lint, deterministic installs, provenance, dependency confusion | `npx skills@latest add susomejias/skills/npm-security-best-practices` |
+
 ## Structure
 
 Each skill lives in a top-level folder and contains a required `SKILL.md` file with optional supporting resources (reference docs, scripts).
