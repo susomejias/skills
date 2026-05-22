@@ -59,7 +59,3 @@ Default to integration tests when unsure.
 - Cover happy path, one meaningful edge case, and one important failure mode before expanding.
 - If a test is hard to write, consider whether the production API or design is the real problem.
 - When unsure what to automate first, start with the prioritization checklist in `references/strategy.md`.
-
-## Related Skills
-
-- Use `tdd` when the user explicitly wants a red-green-refactor workflow.
