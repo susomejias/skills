@@ -31,6 +31,12 @@ npx skills@latest add susomejias/skills/<skill-folder>
 |-------|-------------|---------|
 | `write-prd` | Create a PRD through user interview, codebase exploration, and module design. Saves to `.prds/` as a dated markdown file | `npx skills@latest add susomejias/skills/write-prd` |
 
+### Refactoring
+
+| Skill | Description | Install |
+|-------|-------------|---------|
+| `zero-tech-debt` | Rework a change as if the intended UX and architecture existed from day one: delete compatibility cruft, collapse mode flags, and reshape around the final product surface | `npx skills@latest add susomejias/skills/zero-tech-debt` |
+
 ### Security
 
 | Skill | Description | Install |
