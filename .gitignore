@@ -10,3 +10,6 @@ Thumbs.db
 *.tmp
 *.temp
 *~
+
+# skill-creator iteration artifacts (test outputs, snapshots, benchmarks)
+*-workspace/

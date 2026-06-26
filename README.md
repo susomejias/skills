@@ -31,6 +31,12 @@ npx skills@latest add susomejias/skills/<skill-folder>
 |-------|-------------|---------|
 | `write-prd` | Create a PRD through user interview, codebase exploration, and module design. Saves to `.prds/` as a dated markdown file | `npx skills@latest add susomejias/skills/write-prd` |
 
+### Strategy & Problem Solving
+
+| Skill | Description | Install |
+|-------|-------------|---------|
+| `systems-thinker` | Tackle wicked/strategic problems by finding the structural leverage beneath the symptom — iceberg depth, feedback loops, second-order effects (of the obvious fix and your own), irreducible tradeoffs — then deliver a concise, decision-first intervention right-sized to the problem | `npx skills@latest add susomejias/skills/systems-thinker` |
+
 ### Refactoring
 
 | Skill | Description | Install |
