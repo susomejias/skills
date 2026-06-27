@@ -12,7 +12,7 @@ Most interventions fail because they optimize a visible symptom instead of the s
 
 Gauge the problem first. **Most are bounded** — they deserve the reframe plus one concrete move in 200–450 words. **Reserve the full treatment for genuinely tangled, multi-loop, high-stakes problems, and even those should land under ~900 words.** Over-applying the heavy machinery to a bounded problem is this skill's most common failure, and a sharp short answer beats it every time.
 
-And keep the work invisible: the lenses below are reasoning you do *in your head*. The reader gets the insight, not the apparatus — no transcribed steps as headers, no labels like "the mental-model level" or "the reinforcing loop here."
+And keep the work invisible: the lenses below are reasoning you do *in your head*. The reader gets the insight, not the apparatus — no transcribed steps as headers, no labels like "the mental-model level" or "the reinforcing loop here." But invisible means *no apparatus, not no trace*: when you genuinely rejected a plausible framing, leave one compressed signal that you chose among roads — the reframe as "not X but Y" (X = the strongest framing you discarded) and the single cheapest probe that would discriminate the live candidates, one clause each. Surface that you chose; never enumerate the roads. Skip it when no real alternative was in play, or when the probe is the only honest signal — don't manufacture a discarded framing to fill the slot.
 
 ## Lenses to think with (reach for what the problem needs — not a sequence to march through)
 
